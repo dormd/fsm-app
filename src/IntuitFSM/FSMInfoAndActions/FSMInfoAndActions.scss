@@ -1,0 +1,33 @@
+.fsm-info-and-actions {
+  section {
+    margin-bottom: 10px;
+  
+    .section-title {
+      font-weight: bold;
+    }
+
+    &.actions-section {
+      .section-title {
+        margin-bottom: 10px;
+      }
+
+      button {
+        margin: 5px;
+        padding: 5px 20px;
+        background-color: #364f81;
+        color: white;
+        border-color: transparent;
+        border-radius: 20px;
+        cursor: pointer;
+
+        &:hover{
+          background-color: #405d99;
+        }
+      
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}
