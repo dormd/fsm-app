@@ -29,7 +29,7 @@ const addFSMActionHandlers = (config) => ({
       }
     }, {}),
   },
-  initialize: () => console.log('FST initialized'),
+  initialize: () => console.log('FSM initialized'),
   // global hooks
   onActionEnter: function (action, currentState, targetState) {
     console.log(`onActionEnter (global): ${currentState} -> ${targetState} by [${action}] action`);
